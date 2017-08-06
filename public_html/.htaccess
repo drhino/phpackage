@@ -1,0 +1,7 @@
+
+# redirect to https if any
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^.*$ index.php?q=$0 [NC,L]
