@@ -1,6 +1,4 @@
 application/themes/
-application/theme
-application/themes.json
 node_modules/
 public_html/css/
 public_html/fonts/
