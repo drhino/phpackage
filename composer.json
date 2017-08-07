@@ -1,20 +1,23 @@
 {
     "name": "wbadrh/phpackage",
     "type": "project",
-    "description": "Project - Bundle Javascript & Stylesheets from package.json (Yarn) with PHP.",
+    "description": "Project - Bundle Javascript & Stylesheets from package.json (Yarn) with PHP. ++ Themes",
     "keywords": ["project", "framework", "minify", "minifier", "css", "js", "javascript", "stylesheet", "stylesheets", "Yarn", "package.json", "PHP", "bundle", "performance"],
     "homepage": "https://github.com/wbadrh/phpackage",
     "license": "MIT",
     "require": {
-        "php" : "^5.5 || ^7.0",
-        "ext-json": "*",
-        "ext-zip": "*",
+        "php" : "^7.0",
         "lib-curl": "*",
         "wbadrh/phpackage-json": "^1.0",
+        "wbadrh/git-dl": "^1.0",
         "imangazaliev/didom": "^1.10",
-        "curl/curl": "^1.7"
+        "curl/curl": "^1.7",
+        "league/flysystem": "^1.0"
     },
     "autoload": {
-        "psr-0": { "Application": "" }
+        "psr-0": {
+            "Doc": "",
+            "Themes": ""
+        }
     }
 }
